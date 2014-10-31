@@ -1,5 +1,18 @@
+# LAB 9 - FUNCTIONS
+
 import random
 
+# Part 1 - Minimum
+def minimum(x,y,z):
+    smallest = min(x,y,z)
+    return smallest
+
+# Part 2 - Box
+def box(height, width):
+    for row in range(height):
+        for column in range(width):
+            print("*",end=" ")
+        print()
 # Part 3
 def find(list, key):
     for item in range(len(list)):
